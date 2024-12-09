@@ -43,7 +43,6 @@ def extract_top_skills(descriptions):
 top_skills = extract_top_skills(job_descriptions)
 print(top_skills)  # Вывод: список из 5 наиболее частых навыков
 
-
 from sklearn_crfsuite import CRF
 from sklearn.model_selection import train_test_split
 
